@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: #f0f0f0;
   }
+
   
   header {
     background-color: #e91e63;
@@ -25,7 +26,7 @@ body {
     color: #333;
   }
   .d-block.w-100 {
-    width: 80%; /* or any other percentage you prefer */
+    width: 50%; 
     display: block;
     margin: 0 auto;
   }
@@ -92,4 +93,20 @@ body {
   
   #report-form button:hover {
     background-color: #d81b60;
+  }
+
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .incident-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  #report-response {
+    color: green;
+    font-weight: bold;
   }
